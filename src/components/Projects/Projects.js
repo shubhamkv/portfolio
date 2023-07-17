@@ -34,9 +34,9 @@ function Projects() {
               imgPath={portfolio}
               isBlog={false}
               title="Portfolio"
-              description="Portfolio description"
-              ghLink="https://github.com/shubhamkv"
-              demoLink="https://git-pedia.netlify.app"
+              description="Developed a fully responsive portfolio website with ReactJS. Having the feature of navigation across four different sections - Home, About, Projects and Contact. Uses the React Router DOM for better functionality. In the project section, all the projects are listed with Live link and source code link on github."
+              ghLink="https://github.com/shubhamkv/portfolio"
+              demoLink="https://shubh-kumar.netlify.app/"
             />
           </Col>
 
