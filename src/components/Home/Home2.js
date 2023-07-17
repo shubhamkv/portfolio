@@ -39,8 +39,9 @@ function Home2() {
               <br />
               My keen Interest's are developing new &nbsp;
               <i>
-                <b className="purple">Front-end Web Apps. </b>
+                <b className="purple">Front-end Web Apps </b>
               </i>
+              .
               <br />
               <br />I am a <b className="purple">self-taught developer</b> and
               always eager to learn and explore things related to{" "}
