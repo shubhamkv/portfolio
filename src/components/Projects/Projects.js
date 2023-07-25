@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import weatherapp from "../../Assets/Projects/Weather_app.PNG";
 import gitpedia from "../../Assets/Projects/gitpedia.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
+import comfy from "../../Assets/Projects/comfy.png";
 
 function Projects() {
   return (
@@ -18,6 +19,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={comfy}
+              isBlog={false}
+              title="Comfy Sloth"
+              description="Developed a fully responsive furniture e-commerce web app with ReactJS that communicates with external API. Uses Auth0 for authentication purpose. React-Router for navigation across diferent sections and React Hooks for state management. Integrated the Payment Gateway using Stripe."
+              ghLink="https://github.com/shubhamkv/react-furniture-app"
+              demoLink="https://comfort-furnish.netlify.app"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={gitpedia}
@@ -53,23 +65,12 @@ function Projects() {
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatbot}
+              imgPath={}
               isBlog={false}
-              title="Realtime Chatbot"
-              description="Developed Realtime Chatbot that performs client queries and integrated Socket-io in chat server. Performed authentication for admin using passport.js, express-session and bcrypt enabling the authoritative privileges to perform CRUD operations on selective segments. It was a freelancing project and I procured positive feedback from Client and also received 5 stars contingent to on-time delivery of the product."
-              ghLink="https://github.com/shivam-bhadani/Chatbot"
-              demoLink="https://shivamchatbotwebsite.herokuapp.com/"
-            />
-          </Col> */}
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tictac}
-              isBlog={false}
-              title="Tic Tac Toe Game"
-              description="Developed a Tic Tac Toe Game while I was Learning HTML, CSS, JavaScript."
-              ghLink="https://github.com/shivam-bhadani/Tic-Tac-Toed"
-              demoLink="https://shivam-bhadani.github.io/Tic-Tac-Toe/"
+              title=""
+              description="."
+              ghLink=""
+              demoLink=""
             />
           </Col> */}
         </Row>
